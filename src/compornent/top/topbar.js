@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./topbar.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { IoIosMenu } from "react-icons/io";
+import { IoCloseSharp } from "react-icons/io5";
 
 function topbar() {
   return (
@@ -12,10 +14,11 @@ function topbar() {
           </h1>
         </a>
       </div>
+      <div className="menu-icon">
+        <IoIosMenu size={30} />
+      </div>
 
       <div className="navbar">
-        
-
         <a href="./">Home</a>
 
         <a href="/">About</a>

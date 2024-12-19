@@ -165,6 +165,52 @@
   right: -8px;
   animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
+@media (max-width: 768px) {
+  .backg #pic {
+    /* display: ; */
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+    margin: 30px 50px;
+    /* border: 1px solid red; */
+  }
+  .ade img {
+    width: 20rem;
+  }
+  .taxt {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .backg {
+    margin: 10px 50px;
+    gap: 20px;
+    min-width: 350px;
+  }
+  .g {
+    margin-left: 10px;
+  }
+  .iteam h1 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .iteam h2 {
+    display: none;
+    font-size: 10px;
+    margin-left: 00px;
+  }
+  .social {
+    /* display: none; */
+    margin: auto;
+  }
+  .btn-group {
+    display: none;
+  }
+}
+
 /* 
 @keyframes cursor {
   to {

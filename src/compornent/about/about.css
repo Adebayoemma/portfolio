@@ -112,3 +112,55 @@
   width: 280px;
   border-radius: 10px;
 }
+@media (max-width: 768px) {
+  .about-title h1 {
+    padding: 0px 10px;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .about-title img {
+    width: 50px;
+    height: 60%;
+    position: absolute;
+  }
+  .about-lift img {
+    width: 200px;
+    border-radius: 5px;
+  }
+  .about-Ade {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .about-skill p {
+    min-width: 80px;
+    font-size: 12px;
+    font-weight: 150;
+  }
+  .about-skill hr {
+    width: 20px;
+  }
+  .about-achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    /* margin-left: 30px; */
+    /* transition: 0.5s; */
+  }
+  .about-achievement h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 40px;
+    margin-bottom: 5px;
+  }
+  .about-achievement p {
+    font-size: 10px;
+    font-weight: 100;
+    margin-left: 20px;
+
+    /* margin-left: 20px; */
+  }
+}

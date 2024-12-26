@@ -55,6 +55,9 @@
   color: var(--main-color);
   border-bottom: 3px solid var(--main-color);
 }
+.menu-icon {
+  display: none;
+}
 /* 
 .navbar a.active :hover {
   color: var(--main-color);
@@ -74,13 +77,13 @@
 @media (max-width: 991px) {
   .header {
     padding: 2rem 3%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 }
 @media (max-width: 768px) {
-  /* .menu-icon {
+  .menu-icon {
     display: block;
-  } */
+  }
   .logo {
     display: flex;
     margin-right: 50%;

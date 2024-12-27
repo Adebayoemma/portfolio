@@ -49,20 +49,20 @@ body {
     /* z-index: 5; */
   }
 }
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-size: 30%;
     overflow-x: hidden;
     /* position: absolute; */
-    /* top: 0;
+/* top: 0;
     left: 0; */
-    min-width: 100%;
-    /* padding: 1rem 5% 2rem; */
-    backdrop-filter: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    /* z-index: 5; */
+/* min-width: 100%; */
+/* padding: 1rem 5% 2rem; */
+/* backdrop-filter: flex; */
+/* justify-content: space-between; */
+/* align-items: center; */
+/* z-index: 5; 
   }
-}
+} */

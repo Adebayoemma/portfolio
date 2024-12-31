@@ -189,14 +189,14 @@
   }
 
   .contect-right textarea {
-    width: 300px;
+    width: 200px;
     border: none;
-    padding: 8px;
+    padding: 4px;
     border-radius: 2px;
     background: #32323c;
     color: #a0a0a0;
     font-family: outfit;
-    font-size: 8px;
+    font-size: 10px;
   }
   .contect-right label {
     color: #d8d8d8;

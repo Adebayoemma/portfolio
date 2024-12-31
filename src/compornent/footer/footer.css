@@ -76,7 +76,7 @@
   height: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .footer {
     display: block;
     flex-direction: column;

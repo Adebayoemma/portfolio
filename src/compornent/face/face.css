@@ -221,7 +221,7 @@
     /* border: 1px solid red; */
   }
   .ade img {
-    width: 20rem;
+    width: 10rem;
   }
   .taxt {
     display: block;
@@ -235,12 +235,31 @@
     gap: 20px;
     min-width: 350px;
   }
-  .g {
-    margin-left: 10px;
+  .g a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    font-size: 1.5rem;
+    color: var(--main-color);
+    margin: 1rem 6.5px 1rem 0;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+  }
+  .iteam {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
   }
   .iteam h1 {
+    display: flex;
     font-size: 20px;
-    margin-left: 20px;
+    /* margin-left: 100px; */
+    text-align: center;
   }
 
   .iteam h2 {
@@ -249,7 +268,7 @@
     margin-left: 00px;
   }
   .social {
-    /* display: none; */
+    display: flex;
     margin: auto;
   }
   .btn-group {

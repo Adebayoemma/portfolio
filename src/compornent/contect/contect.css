@@ -114,7 +114,7 @@
   transition: 0.3s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .contect {
     display: flex;
     flex-direction: column;
@@ -132,6 +132,7 @@
     max-width: 400px;
     color: #d8d8d8;
     font-size: 15px;
+    text-align: center;
     line-height: 18px;
   }
   .contect-title img {
